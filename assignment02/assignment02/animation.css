@@ -1,0 +1,108 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  canvas {
+    display: block;
+    
+  }
+  
+  h1 {
+    font-size: 7.5em;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orangered;
+    position: relative;
+    padding-left: 2%;
+    font-weight: normal;
+  }
+  
+  h2{
+    font-size: 6em;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orangered;
+    position: relative;
+    padding-left: 5%;
+    font-weight: normal;
+  }
+  
+  .description{
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    color: orangered;
+    padding-left: 2%;
+    padding-right: 4%;
+  }
+
+  .description a{
+    color: orangered;
+    text-decoration: underline;
+  }
+  .navigation {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: orangered; /*background color of box*/
+   /*padding: 5px 10px; /*padding inside the box*/
+   /*margin-left: 10px; /*spacing between boxes*/
+   opacity: 100;
+   /*border-radius: 15px; /*rounded corners of the box*/
+   width: 100vw;
+   height: 6.5vh;
+   text-align: justify;
+  }
+  
+  .navigation a{
+    color: white; /*text color of the box*/
+    text-decoration: none; /*removes underline from text*/
+    margin-top: 1%;
+    font-size: 1.2em;
+  }
+  
+  
+  
+  
+  .caption {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    color: orangered;
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .pagedescriptor{
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    color: orangered;
+    padding-left: 5%;
+    padding-right: 3%;
+  }
+  
+  .pagedescriptor a{
+    color: orangered;
+    text-decoration: underline;
+  }
+
+  .animation {
+    background-color: orangered;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    justify-content: center; /* horizontally center the content */
+    align-items: center; /* vertically center the content */
+  }
+  
+  .animation-item img {
+    width: 50vw; /* set image width to 50% of the viewport width */
+    height: auto; /* maintain aspect ratio */
+    display: block; /* remove default inline spacing */
+  }
